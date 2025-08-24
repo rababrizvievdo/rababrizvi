@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabab | Graphic Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --dark-bg: linear-gradient(135deg, #2b0033, #ff4e50);
+      --light-bg: linear-gradient(135deg, #f9c5d1, #654d76);
+      --accent: #ff4e80;
+      --text-light: #fff;
+    }
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family: 'Poppins', sans-serif; color: var(--text-light); background:#1a1a1a;}
+    header {height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; background:var(--dark-bg); text-align:center;}
+    header h1 {font-size:4rem; font-weight:800; background: linear-gradient(90deg,#ff4e80,#ff9a9e); -webkit-background-clip:text; color:transparent;}
+    header p {font-size:1.5rem; margin:1rem 0;}
+    header a {padding:0.8rem 2rem; background:var(--accent); color:#fff; border-radius:30px; text-decoration:none; font-weight:600; transition:0.3s;}
+    header a:hover {background:#ff6a9c;}
+
+    section {padding:5rem 10%;}
+    .about {display:flex; align-items:center; justify-content:space-between; background:var(--light-bg); border-radius:20px; padding:3rem;}
+    .about img {width:300px; border-radius:50%; box-shadow:0 0 20px rgba(255,78,128,0.7);}
+    .about-text {flex:1; margin-left:3rem;}
+    .about-text h2 {font-size:2.5rem; font-weight:800; background: linear-gradient(90deg,#ff4e80,#ff9a9e); -webkit-background-clip:text; color:transparent;}
+    .about-text h3 {margin-top:0.5rem; font-weight:600;}
+    .about-text p {margin:1.5rem 0; line-height:1.6;}
+    .signature {font-family:'Great Vibes', cursive; font-size:2rem; color:white; text-shadow:0 0 8px var(--accent);}
+
+    .portfolio {background:var(--dark-bg); border-radius:20px; margin-top:3rem;}
+    .portfolio h2 {text-align:center; font-size:2.5rem; margin-bottom:2rem;}
+    .categories {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.5rem;}
+    .category {background:#2b0033; padding:2rem; border-radius:15px; text-align:center; font-weight:600; transition:0.3s;}
+    .category:hover {background:#3a0048; box-shadow:0 0 20px rgba(255,78,128,0.7);}
+
+    .work-showcase {padding:5rem 10%; background:#1a1a1a;}
+    .work-showcase h2 {text-align:center; font-size:2.5rem; margin-bottom:2rem;}
+    .works {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:2rem;}
+    .work {background:#2b0033; padding:2rem; border-radius:15px; text-align:center;}
+    .work img {width:100%; border-radius:10px;}
+
+    footer {padding:2rem; text-align:center; background:var(--dark-bg); margin-top:3rem; border-radius:15px 15px 0 0;}
+    footer p {margin:1rem 0;}
+    footer a {color:#fff; margin:0 0.5rem; text-decoration:none; font-weight:600;}
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Rabab</h1>
+    <p>Graphic Designer ✦ Bold & Vibrant Creations</p>
+    <a href="#portfolio">View My Work</a>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <img src="A_portfolio_webpage_screenshot_introducing_Rabab,_.png" alt="Rabab Illustration">
+    <div class="about-text">
+      <h2>Hi, I'm Rabab</h2>
+      <h3>Graphic Designer</h3>
+      <p>I craft bold, vibrant, and impactful designs that tell stories and connect with people. From branding and social media to packaging and digital experiences — creativity is at the heart of everything I do.</p>
+      <div class="signature">Rabab ✦ Graphic Designer</div>
+    </div>
+  </section>
+
+  <!-- Portfolio Categories -->
+  <section class="portfolio" id="portfolio">
+    <h2>Explore My Work</h2>
+    <div class="categories">
+      <div class="category">Icons of Identity</div>
+      <div class="category">Shaping Brands</div>
+      <div class="category">Scroll Stoppers</div>
+      <div class="category">Unboxing Creativity</div>
+      <div class="category">Ink & Impact</div>
+      <div class="category">Screens with Soul</div>
+    </div>
+  </section>
+
+  <!-- Work Showcase -->
+  <section class="work-showcase">
+    <h2>Selected Projects</h2>
+    <div class="works">
+      <div class="work"><img src="https://via.placeholder.com/400x250" alt="Project"><p>Project Title</p></div>
+      <div class="work"><img src="https://via.placeholder.com/400x250" alt="Project"><p>Project Title</p></div>
+      <div class="work"><img src="https://via.placeholder.com/400x250" alt="Project"><p>Project Title</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Thanks for scrolling ✦ Let’s create something amazing together!</p>
+    <p>
+      <a href="#">Behance</a>|
+      <a href="#">Dribbble</a>|
+      <a href="#">LinkedIn</a>|
+      <a href="#">Email</a>
+    </p>
+  </footer>
+
+</body>
+</html>

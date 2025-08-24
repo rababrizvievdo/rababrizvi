@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rabab — Graphic Designer Portfolio</title>
+  <meta name="description" content="Portfolio of Rabab — Graphic Designer. Branding, posters, social media visuals, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --color-1: #e8a2a5; /* light pink */
+      --color-2: #6d4a71; /* muted purple */
+      --color-3: #e3605d; /* coral */
+      --color-4: #732f38; /* deep red */
+      --color-5: #52182c; /* wine */
+      --color-6: #3a0d26; /* dark plum */
+      --color-7: #220815; /* near black */
+      --color-8: #0e0206; /* pure dark */
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, sans-serif; background-color: var(--color-7); color: var(--color-1); }
+    .section-light { background-color: var(--color-5); color: var(--color-1); }
+    .section-dark { background-color: var(--color-7); color: var(--color-1); }
+    .btn-primary { background-color: var(--color-3); color: white; }
+    .btn-outline { border: 1px solid var(--color-3); color: var(--color-3); }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-outline:hover { background: var(--color-3); color: white; }
+  </style>
+</head>
+<body>
+  <header class="sticky top-0 z-50 bg-[var(--color-7)] border-b border-[var(--color-5)]">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <a href="#home" class="font-extrabold tracking-tight text-xl text-[var(--color-1)]">Rabab<span class="text-[var(--color-3)]">.design</span></a>
+      <ul class="hidden md:flex gap-6 text-sm font-medium text-[var(--color-1)]">
+        <li><a href="#work" class="hover:text-[var(--color-3)]">Work</a></li>
+        <li><a href="#services" class="hover:text-[var(--color-3)]">Services</a></li>
+        <li><a href="#about" class="hover:text-[var(--color-3)]">About</a></li>
+        <li><a href="#testimonials" class="hover:text-[var(--color-3)]">Testimonials</a></li>
+        <li><a href="#contact" class="hover:text-[var(--color-3)]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section-dark py-20 text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">Hi, I'm Rabab — I design crisp brands & bold visuals.</h1>
+    <p class="mt-5 max-w-xl mx-auto text-[var(--color-1)]">Specialising in branding, posters, social media creatives, and marketing design. I turn ideas into clean, eye-catching visuals that perform.</p>
+    <div class="mt-8 flex justify-center gap-4">
+      <a href="#work" class="btn-outline px-6 py-3 rounded-xl">View Work</a>
+      <a href="#contact" class="btn-primary px-6 py-3 rounded-xl">Start a Project</a>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section-light py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl sm:text-4xl font-extrabold">Selected Work</h2>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="rounded-xl bg-[var(--color-6)] p-5 shadow">
+          <div class="aspect-[4/3] bg-[var(--color-7)]"></div>
+          <h3 class="mt-3 font-semibold">Zephyra Jewels</h3>
+          <p class="text-sm">Luxury product visuals for campaigns and websites.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section-dark py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl sm:text-4xl font-extrabold">Services</h2>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-xl bg-[var(--color-6)] p-6">
+          <h3 class="font-semibold">Brand Identity</h3>
+          <p class="text-sm">Logos, colors, brand guides.</p>
+        </div>
+        <div class="rounded-xl bg-[var(--color-6)] p-6">
+          <h3 class="font-semibold">Social Media</h3>
+          <p class="text-sm">Templates, posts, reels covers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section-light py-20">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold">About Me</h2>
+        <p class="mt-3">I'm Rabab, a graphic designer focused on crisp composition and typography. I love building systems that make brands consistent everywhere.</p>
+      </div>
+      <div class="aspect-[4/3] bg-[var(--color-7)] rounded-xl"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section-dark py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl sm:text-4xl font-extrabold">Testimonials</h2>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <figure class="bg-[var(--color-6)] p-6 rounded-xl">
+          <blockquote>“Rabab translated our messy brief into a clean identity that we love.”</blockquote>
+          <figcaption class="mt-2 text-sm">— Sana, Café Noya</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-light py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl sm:text-4xl font-extrabold">Let’s work together</h2>
+      <p class="mt-3">Email: <a href="mailto:hello@rabab.design" class="underline text-[var(--color-3)]">hello@rabab.design</a></p>
+    </div>
+  </section>
+
+  <footer class="section-dark py-10 text-center text-xs">
+    <p>© <span id="year"></span> Rabab — All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
